@@ -1,0 +1,7 @@
+name: FTravel
+version: '${project.version}'
+main: net.gaialime.ftravel.Main
+api-version: 1.19
+commands:
+  warp:
+    usage: /<command>
