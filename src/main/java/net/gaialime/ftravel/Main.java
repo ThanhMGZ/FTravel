@@ -39,6 +39,7 @@ public class Main extends FTravel {
 //        if (!new File(getDataFolder(),"config.yml").exists())
 //            saveResource("config.yml",true);
         getCommand("warp").setExecutor(new MainCommand());
+        getCommand("ftravel").setExecutor(new MainCommand());
         instance = this;
         this.database = new Database();
         this.database.init();
