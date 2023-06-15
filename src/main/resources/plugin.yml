@@ -5,3 +5,8 @@ api-version: 1.19
 commands:
   warp:
     usage: /<command>
+  ftravel:
+    usage: /<command>
+    aliases:
+      - ft
+      - fasttravel
